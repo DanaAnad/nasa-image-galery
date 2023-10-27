@@ -2,7 +2,7 @@
   "name": "codekeeper_nasa_task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danaanad.github.io/image-nasa-galery/",
+  "homepage": "https://danaanad.github.io/image-nasa-galery",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
