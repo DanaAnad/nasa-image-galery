@@ -1,0 +1,131 @@
+@media (max-width:786px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+    }
+    #item-container {
+        display: flex;
+        flex-direction: column;
+        width:98%;
+        margin:auto;
+    }
+    span {
+        color:grey;
+    }
+    #itemTitle {
+        font-family:sans-serif;
+        font-weight: lighter;
+        margin-top:5px;
+    }
+    #imageItem {
+        display: flex;
+        width:100%;
+        border-radius: 10px;
+        margin-top:3px;
+        margin-bottom: 3px;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    #backBtn {
+        margin:auto;
+        margin-top:10px;
+        margin-bottom: 15px; 
+        background-color: rgb(37, 63, 216);
+        border:none;
+        border-radius:10px;
+        color: white;
+        height:35px;
+        width:170px;
+        text-align: center;
+    }
+}
+@media (min-width:1023px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+    }
+    #item-container {
+        display: flex;
+        flex-direction: column;
+        width:98%;
+        margin:auto;
+    }
+    span {
+        color:grey;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    #itemTitle {
+        font-family:sans-serif;
+        font-weight: lighter;
+        font-size:40px;
+        margin-top:5px;
+    }
+    #imageItem {
+        display: flex;
+        width:100%;
+        border-radius: 10px;
+        margin-top:3px;
+        margin-bottom: 3px;
+    }
+    #backBtn {
+        margin:auto;
+        margin-top:10px;
+        margin-bottom: 15px; 
+        background-color: rgb(37, 63, 216);
+        border:none;
+        border-radius:10px;
+        color: white;
+        height:35px;
+        width:270px;
+        text-align: center;
+    }
+}
+@media (min-width:787px) and (max-width: 1022px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+    }
+    #item-container {
+        display: flex;
+        flex-direction: column;
+        width:98%;
+        margin:auto;
+    }
+    span {
+        color:grey;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    #itemTitle {
+        font-family:sans-serif;
+        font-weight: lighter;
+        font-size:40px;
+        margin-top:5px;
+    }
+    #imageItem {
+        display: flex;
+        width:100%;
+        border-radius: 10px;
+        margin-top:3px;
+        margin-bottom: 3px;
+    }
+    #backBtn {
+        margin:auto;
+        margin-top:10px;
+        margin-bottom: 15px; 
+        background-color: rgb(37, 63, 216);
+        border:none;
+        border-radius:10px;
+        color: white;
+        height:35px;
+        width:270px;
+        text-align: center;
+    } 
+}
