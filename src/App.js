@@ -7,7 +7,7 @@ import ShowPage from './components/showPage/showPage';
 function App() {
   return (
     <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}i>
           <Routes>
             <Route exact path="/" Component={SearchPage}/>
             <Route path="/show/:id" Component={ShowPage}/>
