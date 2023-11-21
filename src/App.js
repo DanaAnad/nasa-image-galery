@@ -10,7 +10,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route exact path="/" Component={SearchPage}/>
-            <Route path="/show/:id" Component={ShowPage}/>
+            <Route path="/:id" Component={ShowPage}/>
             {/* <Route exact path="/" element={<SearchPage />} />
             <Route path="/show/:id" element={<ShowPage />} /> */}
           </Routes>
