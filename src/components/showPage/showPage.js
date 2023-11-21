@@ -19,7 +19,6 @@ const ShowPage = () => {
       }
     };
     fetchCollection();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   return (

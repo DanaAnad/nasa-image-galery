@@ -10,7 +10,7 @@ function App() {
         <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route exact path="/" Component={SearchPage}/>
-            <Route path="/show/:id" Component={ShowPage}/>
+            <Route path="/:id" Component={ShowPage}/>
           </Routes>
         </Router>
     </div>
